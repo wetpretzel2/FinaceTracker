@@ -1,0 +1,14 @@
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/bin/Debug/net9.0/FinaceTracker
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/bin/Debug/net9.0/FinaceTracker.deps.json
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/bin/Debug/net9.0/FinaceTracker.runtimeconfig.json
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/bin/Debug/net9.0/FinaceTracker.dll
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/bin/Debug/net9.0/FinaceTracker.pdb
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.AssemblyInfoInputs.cache
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.AssemblyInfo.cs
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.csproj.CoreCompileInputs.cache
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.dll
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/refint/FinaceTracker.dll
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.pdb
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/FinaceTracker.genruntimeconfig.cache
+/Users/scott/RiderProjects/FinaceTracker/FinaceTracker/obj/Debug/net9.0/ref/FinaceTracker.dll
