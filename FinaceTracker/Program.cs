@@ -40,6 +40,7 @@ class Program
                     break;
                 case 3:
                     // view all transactions
+                    ViewAllTransactions(allTransactions);   
                     break;
                 //exit
                 case 4:
@@ -122,5 +123,21 @@ class Program
         allTransactions.Add(expense);
         // display a success message
         Console.WriteLine("Expense added successfully.");
+    }
+    
+    /// <summary>
+    /// Helper method to view all transactions.
+    /// </summary>
+    /// <remarks>
+    /// This method:
+    /// 1. Displays all transactions in the allTransactions list.
+    /// </remarks>  
+    /// <param name="allTransactions">The list of transactions currently in the list</param>
+    private static void ViewAllTransactions(List<Transaction> allTransactions)
+    {
+        foreach (Transaction transaction in allTransactions)
+        {
+            Console.WriteLine(transaction);
+        }
     }
 }
