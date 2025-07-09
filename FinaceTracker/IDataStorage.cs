@@ -8,7 +8,7 @@ namespace FinaceTracker
 {
     public interface IDataStorage
     {
-        void Save(List<Transaction> alltransactions);
+        void Save(List<Transaction> allTransactions);
         List<Transaction> Load();
 
     }
