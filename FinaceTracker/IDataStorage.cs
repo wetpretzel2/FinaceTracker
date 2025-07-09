@@ -8,5 +8,7 @@ namespace FinaceTracker
 {
     internal interface IDataStorage
     {
+        // this interface defines the methods for data storage operations
+
     }
 }
