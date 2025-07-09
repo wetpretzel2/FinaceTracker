@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace FinaceTracker
 {
-    internal interface IDataStorage
+    public interface IDataStorage
     {
-        // this interface defines the methods for data storage operations
+        void Save(List<Transaction> alltransactions);
+        List<Transaction> Load();
 
     }
 }
