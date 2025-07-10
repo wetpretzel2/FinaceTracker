@@ -4,16 +4,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        // list to hold all transaction objects - income and expenses
-        List<Transaction> allTransactions = new List<Transaction>();
+        // Initialize the data storage interface
+        IDataStorage dataStorage = new JsonStorage();
+
+        // Load existing transactions from the JSON file
+        List<Transaction> allTransactions = dataStorage.Load();
+
         int userChoice = 0;
 
         while (userChoice != 4)
         {
             // Menu display
-            Console.WriteLine("----------------------------------------");
-            Console.WriteLine("\t\t\t Finance Tracker ");
-            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("\t Finance Tracker ");
+            Console.WriteLine("-----------------------------------");
             Console.WriteLine("Please select an option: ");
             Console.WriteLine("1. Add a new income");
             Console.WriteLine("2. Add a new expense");
@@ -45,6 +49,8 @@ class Program
                 //exit
                 case 4:
                     Console.WriteLine("Thank you for using the application.");
+                    // Save the transactions to the JSON file before exiting
+                    dataStorage.Save(allTransactions);
                     break;
                 default:
                     // handles any input errors
